@@ -42,15 +42,34 @@ nav a{
 }
 /* header related styles */
 .header{
-    background-color: rgb(228, 217, 217);
+    background-color: rgb(206, 198, 198);
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:40%;
+    margin-bottom: 30%;
+
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display:flex;
     align-items: center;
 }
 .banner .profile{
     width: 500px;
+    margin-top: 49px;
 }
+.banner-greeting{
+    font-size: 35px;
+    color:rgb(121, 76, 51);
+    margin: 0px;
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.banner-description{
+    margin-right:10%;
 
-
+}
