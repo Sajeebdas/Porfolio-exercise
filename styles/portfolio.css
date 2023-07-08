@@ -12,8 +12,21 @@ body{
     font-size: 20px;
     color: white;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 5px 15px;
+    box-shadow: 3px 5px 5px lightgreen;
+    
 
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
 /* nav realated styles */
 nav{
@@ -26,6 +39,7 @@ nav{
     color: rgb(19, 7, 7);
     font-size: 45px;
     font-weight: 800;
+
 }
 nav > ul{
     display: flex;
@@ -46,8 +60,8 @@ nav a{
     background-image: url("/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size:40%;
-    margin-bottom: 30%;
+    background-size:34%;
+    margin-bottom: 15%;
 
 }
 .banner{
@@ -72,4 +86,14 @@ nav a{
 .banner-description{
     margin-right:10%;
 
+}
+/* main section styles */
+
+/* about section styles */
+.about{
+    padding: 136px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+    
 }
