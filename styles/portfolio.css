@@ -11,10 +11,9 @@ body{
     border: 0px;
     font-size: 20px;
     color: white;
-    font-weight: 700;
-    padding: 5px 15px;
-    box-shadow: 3px 5px 5px lightgreen;
-    
+    font-weight: 300;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 3px 5px 5px black
 
 }
 .section-title{
@@ -25,8 +24,9 @@ body{
 }
 .section-description{
     color: #757575;
-    text-align: center;
+    text-align:center;
     font-size: 18px;
+    color: black;
 }
 /* nav realated styles */
 nav{
@@ -60,8 +60,8 @@ nav a{
     background-image: url("/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size:34%;
-    margin-bottom: 15%;
+    background-size:24%;
+    margin-bottom: 5%;
 
 }
 .banner{
@@ -84,16 +84,52 @@ nav a{
     margin-top: 5px;
 }
 .banner-description{
-    margin-right:10%;
+    font-weight: 600;
+    padding: 20px;
+    justify-content: center;
+
 
 }
 /* main section styles */
-
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
+    main section{
+        margin: 100px;
+    }
 /* about section styles */
 .about{
-    padding: 136px;
-    border-radius: 10px;
-    background: #FFF8F3;
-    margin: 130px 0px;
+    padding: 106px;
+    border-radius: 40px;
+    background: #e0963bbd;
+    margin: 80px 0px;
     
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+/* skills realated style */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #584c4ca1;
+    box-shadow: 10px 10px 20px black(0,0,0.06)
+    
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-description{
+    color: white
+ 
 }
